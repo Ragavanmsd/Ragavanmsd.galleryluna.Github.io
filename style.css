@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+.gallery-img{
+    display: none;
+    max-height: 500px;
+}
+.active{
+    display: block;
+}
+
+.image-gallery{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btns{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    background-color:rgb(21, 25, 247);
+    color: rgb(113, 157, 238);
+    font-size: 20px;
+    padding: 5px 20px;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.prev{
+    margin-right: 20px;
+}
+.btn:disabled{
+    background-color: #777;
+    cursor: not-allowed ;
+}
